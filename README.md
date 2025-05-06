@@ -1,24 +1,33 @@
-# README
+#  Rails Wikinimous
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple anonymous wiki application built with Ruby on Rails, allowing users to create, edit, and view articles without authentication.
 
-Things you may want to cover:
+---
 
-* Ruby version
+##  Features
 
-* System dependencies
+- 📰 Create new articles
+- ✏️ Edit existing articles
+- 📄 View a list of all articles
+- 🔍 Search for articles by title
+- 🧭 Navigate between articles
 
-* Configuration
+---
 
-* Database creation
+##  Tech Stack
 
-* Database initialization
+- **Ruby on Rails** (MVC framework)
+- **SQLite3** (development database)
+- **ERB** (templating system)
+- **Bootstrap** (UI styling)
+- **Simple Form** (form builder)
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+##  Setup Instructions
 
-* Deployment instructions
+1. **Clone the repository:**
 
-* ...
+   ```bash
+   git clone https://github.com/nexspro/rails-wikinimous.git
+   cd rails-wikinimous
